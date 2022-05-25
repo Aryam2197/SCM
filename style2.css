@@ -1,0 +1,84 @@
+.form #label{ 
+	font-family: 'Poppins', sans-serif; 
+	letter-spacing: 1.5px;
+	
+
+}
+.form #email{ 
+	font-family: 'Poppins', sans-serif; 
+	
+
+}
+.form #name{ 
+	font-family: 'Poppins', sans-serif; 
+	
+}
+label{
+	font-family: 'Poppins', sans-serif; 
+	/*text-shadow: 0.5px 0.5px lightgrey;*/
+	
+}
+#submit{
+	font-family: 'Poppins', sans-serif; 
+}
+#reset{
+	font-family: 'Poppins', sans-serif; 
+}
+#dropdown{
+	font-family: 'Poppins', sans-serif; 
+}
+
+@media screen and (max-width: 1400px){
+	.color-box{
+		width: 700px;
+		right: -150px;
+	}
+
+}
+
+@media screen and (max-width: 768px){
+	/*.color-box{
+		display: none;
+	}*/
+	/*body{
+  		background:#9baacf;
+	}*/
+	.resume{
+		display: none;
+	}
+	.form{
+	position: absolute;
+	right: 0;
+	left: 70px;
+	margin-right: 0px;
+	margin-top: 18px;
+	}
+	#name{
+		margin-left: 10px;
+		width:200px ;
+	}
+	#rollno{
+
+		margin-left: 10px;
+		width:200px ;
+	}
+	#email{
+ 		margin-left: 70px;
+ 		width: 200px;
+	}
+	#department{
+		margin-left: 10px;
+		width:200px ;
+	}
+	#dropdown{
+  		padding: 5px;
+  		border-radius: 10px;
+  		margin-left: 100px;
+	}
+	label{
+		text-align: left;
+	}
+	#dropdown{
+		margin-left: 10px;
+	}
+}

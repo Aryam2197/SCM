@@ -1,0 +1,417 @@
+body{
+	magin:0px;
+	
+}
+
+#body-header{
+	height:60vh;
+	margin:0px;
+	/*background-image:url(https://ak.picdn.net/shutterstock/videos/1013426522/thumb/1.jpg?ip=x480);*/
+	background-image:url(https://c4.wallpaperflare.com/wallpaper/963/694/457/spots-background-light-blur-wallpaper-preview.jpg);
+	background-size:cover;
+	background-position:center;
+	opacity:0.9;
+	background-attachment:fixed;
+}	
+
+.text-center{
+	text-align:center;
+}
+
+/* NAVBAR THINGY */
+.horizontal-list{
+	list-style:none;
+	padding-left:0px;
+	margin:0px;
+}
+
+.horizontal-list li{
+	display:inline-block;
+	margin:5px 50px 8px 0px;
+	font-size:1.4rem;
+}
+
+.horizontal-list li a{
+	color:white;
+	text-decoration:none;
+	transition:color 0.3s;
+}
+
+.horizontal-list li a:hover{
+	color:lightgrey;
+}
+
+/* BIG Name*/
+#name{
+	margin:87px 0px 10px 0px;
+	font-size:5rem;
+	color:white;
+}
+
+/* ICONS*/
+.icons li{
+	display:inline-block;
+	margin:0px 45px 0px 0px;
+	font-size:1.4rem;	
+}
+
+.icons li a{
+	color:white;
+	text-decoration:none;
+	transition:color 0.2s;
+}
+
+.icons li a:hover{
+	color:grey;
+}
+
+#image{
+	radius:50px;
+}
+
+/* HOME SECTION */
+
+#about{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#homeText{
+	font-size:2rem;
+	margin:0px 90px 0px 90px;
+	text-align:justify;
+	padding-top:30px;
+}
+
+/* SKILLS SECTION */
+
+#skills{
+	background-color:#e3e3e3;
+}
+
+#skillTitle{
+	font-size:5rem;
+	color:white;
+	text-align:center;
+	margin:30px 0px 0px 0px;
+}
+
+/* 11111111 */
+
+.skillDisplay1{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	position:relative;
+	margin-left:10%;
+	bottom:2rem;
+	top:12px;
+}
+
+.color1{
+	background-color:#F05454;
+}
+
+.skillProgress1{
+	width:10rem;
+	height:1.4rem;
+	border-radius:0.8rem;
+	background-color:grey;
+}
+
+.skillProgress1>div{
+	border-radius:20px 0px 0px 20px;
+}
+
+.eighty-five-percent{
+	width:85%;
+	height:inherit;
+}
+
+.skillName1 span{
+	color:white;
+	text-align:center;
+	margin-left:3px;
+	padding-top:6px;
+}
+/* 222222222222 */
+
+.skillDisplay2{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	position:relative;
+	margin-left:45%;
+	bottom:2rem;
+	top:-10px;
+	
+}
+
+.color2{
+	background-color:#30475E;
+}
+
+.skillProgress2{
+	width:10rem;
+	height:1.4rem;
+	border-radius:0.8rem;
+	background-color:grey;
+}
+
+.skillProgress2>div{
+	border-radius:20px 0px 0px 20px;
+}
+
+.sixty-percent{
+	width:60%;
+	height:inherit;
+}
+
+.skillName2 span{
+	color:white;
+	text-align:center;
+	margin-left:3px;
+	padding-top:6px;
+}
+/* 3333333333 */
+
+.skillDisplay3{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	position:relative;
+	margin-left:85%;
+	bottom:2rem;
+}
+
+.color3{
+	background-color:#121212;
+}
+
+.skillProgress3{
+	width:10rem;
+	height:1.4rem;
+	border-radius:0.8rem;
+	background-color:grey;
+}
+
+.skillProgress3>div{
+	border-radius:20px 0px 0px 20px;
+}
+
+.forty-percent{
+	width:40%;
+	height:inherit;
+}
+
+.skillName3 span{
+	color:white;
+	text-align:center;
+	margin-left:3px;
+	padding-top:6px;
+}
+
+/* EXPERIENCE SECTION */
+
+#experience{
+	background-color:#ffffff;
+}
+
+#xpTitle{
+	font-size:5rem;
+	color:#b8b8b8;
+	text-align:center;
+	margin:0px 0px 0px 0px;
+}
+
+.timeline{
+	position:relative;
+	width:75%;
+	border:2px solid black;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.timelineBox{
+	position:relative;
+	width:40%;
+	left:5%;
+	min-height:150px;
+	border:2px solid black;
+	margin:5px;
+}
+
+.timelineBox:nth-child(2n){
+	left:53%;
+}
+
+.timelineBox:nth-child(2n)::after{
+	content:"";
+	border-radius:50%;
+	width:0.5rem;
+	height:0.5rem;
+	background-color:grey;
+	position:absolute;
+	top:45%;
+	left:-10%;
+}
+
+.timelineBox:nth-child(2n+1)::after{
+	content:"";
+	border-radius:50%;
+	width:0.5rem;
+	height:0.5rem;
+	background-color:grey;
+	position:absolute;
+	top:45%;
+	right:-12.1%;
+}
+
+
+.timelineDivider{
+	position:absolute;
+	height:75%;
+	width:0;
+	top:10%;
+	left:50%;
+}
+
+.timelineTraveller{
+	position:sticky;
+	top:34.5%;
+	transform:rotate(90deg);
+}
+
+.textInBox{
+	text-align:justify;
+	margin:0px 5px 3px 5px;
+	
+}
+
+.timeline .timelineBox h4{
+	margin-left:10px;
+}
+
+/* EDUCATION SECTION */
+
+#education{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#education{
+	background-color:#b8b8b8;
+	/*background-image:url(https://ak.picdn.net/shutterstock/videos/1013426522/thumb/1.jpg?ip=x480);*/
+	background-image:url(https://c4.wallpaperflare.com/wallpaper/963/694/457/spots-background-light-blur-wallpaper-preview.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	opacity:0.9;
+	background-attachment:fixed;
+}
+
+#edTitle{
+	font-size:5rem;
+	color:white;
+	text-align:center;
+	margin:0px 0px 0px 0px;
+}
+
+/* PORTFOLIO SECTION */
+
+#portfolio{
+	background-color:white;
+}
+
+#pfTitle{
+	font-size:5rem;
+	color:#b8b8b8;
+	text-align:center;
+	margin:0px 0px 0px 0px;
+}
+
+#image01{
+	background-image:url(https://www.stellaguan.com/wp-content/uploads/Phone-View-Collection-1024x635.jpg);
+	width:800px;
+	height:650px;
+	background-repeat: no-repeat;
+	margin-left:auto;
+	margin-right:auto;
+	border:3px solid black;
+	border-radius:20px;
+}
+
+/* CONTACT SECTION */
+
+#contact{
+	background-color:#b8b8b8;
+	background-image:url(https://c4.wallpaperflare.com/wallpaper/963/694/457/spots-background-light-blur-wallpaper-preview.jpg);
+	background-size:cover;
+	height:500px;
+	background-repeat: no-repeat;
+	border:2px solid black;
+	margin-top:4px;
+	border-radius:10px;
+	opacity:0.9;
+}
+
+#conTitle{
+	font-size:3rem;
+	color:white;
+	text-align:center;
+	margin:0px 0px 0px 0px;
+}
+
+form{
+	margin-top:50px;
+	margin-left:40vw;
+}
+	
+.formControl{
+	width:40%;
+	background:transparent;
+	border:none;
+	outline:none;
+	border-bottom:1px solid black;
+	font-size:18px;
+	margin-bottom:16px;
+}	
+
+#contactForm{
+	background:transparent;
+}
+input{
+	height:45px;
+}	
+
+form .submit{
+	background:#91a3bf;
+	font-weight:bold;
+	border-color:transparent;
+	font-size:20px;
+	color:white;
+	letter-spacing:2px;
+	height:50px;
+	margin-top:20px;
+	text-align:center;
+}
+
+form .submit:hover{
+	background-color:#7a95bf;
+	cursor:pointer;
+}
+
+::placeholder{
+	color:white;
+	opacity:0.5;
+}
+
+
+
+
+
+
+
+
+
+
+
